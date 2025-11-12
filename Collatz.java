@@ -22,6 +22,7 @@ public class Collatz {
 				System.out.println(" (" + mone + ")");
 
 			}
+			System.out.println("Every one of the first " +seed+ " hailstone sequences reached 1.");
 		}
 		if(mode.equals("c")){
 			for(int i= 1; i <= seed; i++ ){
