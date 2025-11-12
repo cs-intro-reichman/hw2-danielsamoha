@@ -11,7 +11,7 @@ public class Cheers {
             String m = args[0].toUpperCase();
             for (int i = 0;i < args[0].length(); i++){
                 char n = m.charAt(i);
-                if(n == 'A' ||n == 'E' ||n == 'I' ||n == 'O' || n== 'U'||n == 'F' ||n == 'H'||n == 'L'||n == 'M'||n == 'N'||n == 'R'||n == 'S'||n == 'X'){
+                if(n == 'A' || n == 'E' ||n == 'I' ||n == 'O' ||n == 'F' ||n == 'H'||n == 'L'||n == 'M'||n == 'N'||n == 'R'||n == 'S'||n == 'X'){
                         System.out.println("Give me an " + m.charAt(i) + ": " + m.charAt(i) + "!");
                 }
                 else{
