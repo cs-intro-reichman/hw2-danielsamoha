@@ -23,7 +23,7 @@ public class Collatz {
 
 			}
 		}
-		else{
+		if(mode.equals("c")){
 			for(int i= 1; i <= seed; i++ ){
 				int mone = 1;
 				int x = i;				
@@ -36,7 +36,7 @@ public class Collatz {
 				    }
 					mone++;
 				}
-				System.out.println(" (" + mone + ")");
+				System.out.println("Every one of the first " +seed+ " hailstone sequences reached 1.");
 
 			}
 		}
