@@ -23,5 +23,22 @@ public class Collatz {
 
 			}
 		}
+		else{
+			for(int i= 1; i <= seed; i++ ){
+				int mone = 1;
+				int x = i;				
+				while (x != 1 || mone == 1) {
+					if(x % 2 == 0){
+					   x /= 2;
+				    }
+				    else{
+					    x = (x * 3) + 1;
+				    }
+					mone++;
+				}
+				System.out.println(" (" + mone + ")");
+
+			}
+		}
 	}
 }
