@@ -15,7 +15,7 @@ public class Cheers {
                         System.out.println("Give me an " + m.charAt(i) + ": " + m.charAt(i) + "!");
                 }
                 if(n == 'F' ||n == 'H'||n == 'L'||n == 'M'||n == 'N'||n == 'R'||n == 'S'||n == 'X'){
-                        System.out.println("Give me a " + m.charAt(i) + ": " + m.charAt(i) + "!");
+                        System.out.println("Give me a  " + m.charAt(i) + ": " + m.charAt(i) + "!");
                 }
             }
             System.out.println("What does that spell?");
